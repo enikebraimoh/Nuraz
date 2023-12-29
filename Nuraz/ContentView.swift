@@ -8,17 +8,26 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    @State var email : String
+    
     var body: some View {
-        VStack {
+        VStack(spacing : 20) {
             Image(systemName: "globe")
                 .imageScale(.large)
                 .foregroundStyle(.tint)
-            Text("Hello, world!")
+            
+            AppTextField(
+                textValue: $email,
+                placeHolderText: Text("Text"),
+                iconNamePath: "envelope"
+            )
         }
         .padding()
     }
 }
 
+
 #Preview {
-    ContentView()
+    ContentView(email: "")
 }

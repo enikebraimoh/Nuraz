@@ -11,7 +11,8 @@ import SwiftUI
 struct NurazApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            OnboardingScreen()
+//            ContentView(email: "")
         }
     }
 }

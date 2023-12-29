@@ -7,18 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B43565A52B3D8B1C00CF866E /* OnboardingScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = B43565A42B3D8B1C00CF866E /* OnboardingScreen.swift */; };
 		B467EF8A2B3419D500B9D89A /* NurazApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B467EF892B3419D500B9D89A /* NurazApp.swift */; };
 		B467EF8C2B3419D500B9D89A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B467EF8B2B3419D500B9D89A /* ContentView.swift */; };
 		B467EF8E2B3419DA00B9D89A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B467EF8D2B3419DA00B9D89A /* Assets.xcassets */; };
 		B467EF912B3419DA00B9D89A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B467EF902B3419DA00B9D89A /* Preview Assets.xcassets */; };
+		B4EAD2572B3EDE3600F72816 /* OnboardingData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4EAD2562B3EDE3600F72816 /* OnboardingData.swift */; };
+		B4F751F92B36545500FDA745 /* AppTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4F751F82B36545500FDA745 /* AppTextField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B43565A42B3D8B1C00CF866E /* OnboardingScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingScreen.swift; sourceTree = "<group>"; };
 		B467EF862B3419D500B9D89A /* Nuraz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Nuraz.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B467EF892B3419D500B9D89A /* NurazApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NurazApp.swift; sourceTree = "<group>"; };
 		B467EF8B2B3419D500B9D89A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B467EF8D2B3419DA00B9D89A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B467EF902B3419DA00B9D89A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B4EAD2562B3EDE3600F72816 /* OnboardingData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingData.swift; sourceTree = "<group>"; };
+		B4F751F82B36545500FDA745 /* AppTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTextField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,10 +57,12 @@
 		B467EF882B3419D500B9D89A /* Nuraz */ = {
 			isa = PBXGroup;
 			children = (
+				B4EAD2552B3EDDB100F72816 /* Onboarding */,
 				B467EF892B3419D500B9D89A /* NurazApp.swift */,
 				B467EF8B2B3419D500B9D89A /* ContentView.swift */,
 				B467EF8D2B3419DA00B9D89A /* Assets.xcassets */,
 				B467EF8F2B3419DA00B9D89A /* Preview Content */,
+				B4F751F82B36545500FDA745 /* AppTextField.swift */,
 			);
 			path = Nuraz;
 			sourceTree = "<group>";
@@ -65,6 +73,15 @@
 				B467EF902B3419DA00B9D89A /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B4EAD2552B3EDDB100F72816 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				B43565A42B3D8B1C00CF866E /* OnboardingScreen.swift */,
+				B4EAD2562B3EDE3600F72816 /* OnboardingData.swift */,
+			);
+			path = Onboarding;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +154,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B43565A52B3D8B1C00CF866E /* OnboardingScreen.swift in Sources */,
+				B4EAD2572B3EDE3600F72816 /* OnboardingData.swift in Sources */,
 				B467EF8C2B3419D500B9D89A /* ContentView.swift in Sources */,
 				B467EF8A2B3419D500B9D89A /* NurazApp.swift in Sources */,
+				B4F751F92B36545500FDA745 /* AppTextField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
